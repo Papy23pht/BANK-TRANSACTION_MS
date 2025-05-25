@@ -269,7 +269,7 @@ EXEC ProcessDeposit(100, 300);
 ```
 
 **Screenshots to Add**:
-![alt text] (https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/PROCEDURE%20CREATION.png?raw=true)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/PROCEDURE%20CREATION.png?raw=true)
 
 Testing
 ![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Procedure%20call.png?raw=true)
