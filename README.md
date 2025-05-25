@@ -89,7 +89,7 @@ I created a **BPMN diagram** (like a map of tasks) showing who does what:
 *Swimlanes*: Customer, Teller, Manager, System  
 
 **Screenshots to Add**:
-- ![alt text](../2/BPMN.png): BPMN diagram of banking tasks.
+- ![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/phase%202/BBPMN.png?raw=true): BPMN diagram of banking tasks.
 
 ---
 
@@ -119,7 +119,8 @@ The database is organized to avoid mess:
 - ✅ **Clear links**: Every field connects to its table’s key.  
 - ✅ **No confusion**: Data is simple and direct. 
 
-![alt text](<../3/Logical Model.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%203/Logical%20Model.png?raw=true)
+
 
 
 
@@ -138,11 +139,12 @@ The database is like the bank’s control room—it needs a name, a key, and a w
 - **Tool**: Oracle Enterprise Manager (OEM) to check performance
 
 **Screenshots to Add**:
-- `[Insert phase4_database_setup.png]`: Oracle Enterprise Manager showing database status.
+- 
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%204/Screenshot%202025-05-24%20144407.png?raw=true)
+ Oracle Enterprise Manager showing database status.
 
 **Real-World Fact**: Tools like OEM help banks spot issues fast, reducing downtime by 30% in tech-savvy banks (Bank Tech Report, 2025).
 
-![alt text](<../4/Screenshot 2025-05-24 144407.png>)
 
 ---
 
