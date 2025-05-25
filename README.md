@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/793ebc87-7d7b-41b4-bb00-a9b306bc5507)# 🏦 Bank Transactions Management System: A Smart Way to Run Banks! 🌟
+# 🏦 Bank Transactions Management System: A Smart Way to Run Banks! 🌟
 
 > *Imagine a bank where deposits are instant, accounts are secure, and every action is tracked—this system makes it happen!*
 
