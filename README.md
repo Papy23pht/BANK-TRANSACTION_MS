@@ -1,4 +1,4 @@
-# 🏦 Bank Transactions Management System: A Smart Way to Run Banks! 🌟
+![image](https://github.com/user-attachments/assets/793ebc87-7d7b-41b4-bb00-a9b306bc5507)# 🏦 Bank Transactions Management System: A Smart Way to Run Banks! 🌟
 
 > *Imagine a bank where deposits are instant, accounts are secure, and every action is tracked—this system makes it happen!*
 
@@ -181,7 +181,8 @@ CREATE TABLE Transaction (
 
       
 ```
-![alt text](<../5/Creation of Tables.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%205/Creation%20of%20Tables.png?raw=true)
+
 
 
 ### Adding Sample Data
@@ -200,7 +201,8 @@ INSERT INTO Customer (CustomerID, FirstName, LastName, Email, Phone)
 VALUES (seq_customer_id.NEXTVAL, 'Audit', 'Test', 'audit.test@email.com', '0781112222');
 ```
 
-![alt text](<../5/Insertion Of DATAS.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%205/Insertion%20Of%20DATAS.png?raw=true)
+
 
 
 **Real-World Fact**: Adding realistic test data helps banks spot issues before launch, saving 15% in operational costs (Bank Tech Insights, 2024).
@@ -215,14 +217,15 @@ The system isn’t just a box—it’s alive! It lets staff add, change, and che
 ```sql
 UPDATE Account SET Balance = Balance + 200 WHERE AccountID = 100;
 ```
-![alt text](<../6/DML Update.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/DML%20Update.png?raw=true)
 
 
-### DDL(DATA Definition Lnaguage)
+### DDL(DATA Definition Language)
 ```sql
 ALTER TABLE Account ADD LastTransactionDate DATE;
 ```
-![alt text](<../6/DDL ALTER.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/DDL%20ALTER.png?raw=true)
+
 
 
 ### Checking Transactions
@@ -236,7 +239,7 @@ SELECT
 FROM Transaction t
 WHERE t.TransactionType = 'Deposit';
 ```
-![alt text](<../6/Window Functions.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Window%20Functions.png?raw=true)
 
 
 *Why Cool?* This shows an account’s deposits adding up over time, helping managers spot active accounts!
@@ -266,7 +269,11 @@ EXEC ProcessDeposit(100, 300);
 ```
 
 **Screenshots to Add**:
-- `[Insert phase6_procedure_result.png]`: Output of `ProcessDeposit` (e.g., balance updated).
+![alt text] (https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/PROCEDURE%20CREATION.png?raw=true)
+
+Testing
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Procedure%20call.png?raw=true)
+
 
 **Real-World Fact**: Automated procedures cut transaction errors by 70% in banks (Bank Efficiency Study, 2024).
 
@@ -297,7 +304,7 @@ BEGIN
 END;
 /
 ```
-![alt text](<../6/Cursor creation.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Cursor%20creation.png?raw=true)
 
 
 : Output of cursor procedure (e.g., Transaction ID: 1000, Type: Deposit, Amount: 500, Date: 24-MAY-25).
@@ -323,12 +330,14 @@ EXCEPTION
 END;
 
 ```
-![alt text](../6/Function.png)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Function.png?raw=true)
+
 
 ### Function calls
 
 
-![alt text](<../6/Function calls.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Function%20calls.png?raw=true)
+
 
 
 
@@ -396,7 +405,8 @@ CREATE OR REPLACE PACKAGE BODY Bank_Tools AS
 END Bank_Tools;
 /
 ```
-![alt text](<../6/Package creation.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Package%20creation.png?raw=true)
+
 
 
 
@@ -415,7 +425,8 @@ BEGIN
 END;
 /
 ```
-![alt text](<../6/Package call.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%206/Package%20testing.png?raw=true)
+
 
 
 
@@ -463,7 +474,7 @@ These rules are called **triggers**, and they act like magic guards protecting t
    END;
    /
    ```
-![alt text](<../7/Restrict trigger created.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%207/Restrict%20trigger%20created.png?raw=true)
 
 
 
@@ -482,7 +493,8 @@ These rules are called **triggers**, and they act like magic guards protecting t
    END;
    /
    ```
-![alt text](<../7/Trigger audit crreat.pngn.png>)
+   
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%207/Trigger%20audit%20crreat.pngn.png?raw=true)
 
 
 
@@ -516,7 +528,8 @@ I tested these triggers to make sure they’re doing their jobs like superheroes
      ```
      *Result*: Success! The deposit went through because it was Saturday—a day off for the rule!  
 
-![alt text](<../7/Testing in weekends.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%207/Testing%20in%20weekends.png?raw=true)
+
 
 
 
@@ -528,7 +541,8 @@ I tested these triggers to make sure they’re doing their jobs like superheroes
      ```
      *Result*: It showed entries for “Tried Deposit,” “Deposit OK,” and “Processed Deposit,” all marked correctly!
 
-![alt text](<../7/Already done.png>)
+![alt text](https://github.com/Papy23pht/BANK-TRANSACTION_MS/blob/main/PHASE%207/Already%20done.png?raw=true)
+
 
 ---
 
